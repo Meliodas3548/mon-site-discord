@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    padding: 80px 20px;
+    padding: 100px 20px;
 }
 
 h1 {
@@ -23,23 +23,30 @@ h1 {
     text-decoration: none;
     border-radius: 10px;
     font-weight: bold;
-    transition: 0.3s;
 }
 
-.btn:hover {
-    background: #404EED;
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+    background: rgba(0,0,0,0.2);
+}
+
+.stat h2 {
+    font-size: 2.5em;
 }
 
 .about {
-    padding: 40px;
+    padding: 50px;
 }
 
 .features {
     display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 40px;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
 }
 
 .card {
@@ -47,19 +54,48 @@ h1 {
     padding: 20px;
     border-radius: 15px;
     width: 250px;
-    backdrop-filter: blur(10px);
 }
 
 .card img {
     width: 80px;
-    margin-bottom: 10px;
+}
+
+.staff {
+    padding: 50px;
+}
+
+.staff-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.staff-card {
+    background: rgba(255,255,255,0.1);
+    padding: 20px;
+    border-radius: 15px;
+    width: 200px;
+}
+
+.staff-card img {
+    width: 70px;
+}
+
+.reviews {
+    padding: 50px;
+    background: rgba(0,0,0,0.2);
+}
+
+.review {
+    margin: 20px auto;
+    width: 60%;
 }
 
 .cta {
-    padding: 60px 20px;
+    padding: 80px 20px;
 }
 
 footer {
     padding: 20px;
-    background: rgba(0,0,0,0.3);
+    background: rgba(0,0,0,0.4);
 }
